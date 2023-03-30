@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+}
+header h2{
+    float: left;
+    position:absolute;
+    top: 40px;
+    left:10px;
+    height:40px;
+    width:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    font-size: 30px;
+}
+header img{
+    position:absolute;
+    top:0px;
+    left:140px;
+    height:150px;
+    width:140px;
+    border-radius:50%;
+}
+header{
+    
+    background-image: url(fit.jpg);
+    background-size: cover;
+    max-width:auto;
+    height:120vh;
+    image-resolution: 250px 300px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    background:none;
+    margin-left: 300px;
+}
+nav ul li{
+    width:100px;
+    margin-top: 60px;
+    margin-right: 40px;
+    list-style: none;
+    background:none;
+}
+
+nav ul li a{
+    width:80px;
+    background: rgb(60, 101, 235);
+    border-radius: 25px;
+    font-size:20px;
+    padding: 5px 20px;
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background: rgb(15, 63, 219);
+    transition: 0.6s ease;
+}
+p{
+     color:white;
+     background: none;
+}
+div p.first{
+    position: absolute;
+    top:45%;
+    left:15%;
+    font-size: 40px;
+ }
+
+ div input{
+     width:30%;
+     position: absolute;
+     top:25%;
+     left:40%;
+     transform: translate(-50%,-50%);
+     padding: 15px 2px;
+     background: white;
+     border-style: none;
+     outline: none;
+     border-radius: 25px;
+     font-size: 1em;
+     transition: 0.25s;
+ }
+
+ input:focus{
+     width:35%;
+ }
+ button{
+    font-size:1.2em;
+     padding: 8px 4px; 
+    color: white;
+    border-radius: 15px;
+ }
+
+ div button.firstbutton{
+     width:14%;
+     background: rgb(60, 101, 235);
+     position: absolute;
+     top:75%;
+     left:20%;
+     transform: translate(-50%,-50%);
+     border-style: none;
+     outline: none;
+     transition: 0.25s;
+ }
+ div button.firstbutton:focus{
+     width:16%;
+     background: rgb(15, 63, 219);
+ }
+ div button.secondbutton{
+    width:10%;
+    background: rgb(60, 101, 235);
+    position: absolute;
+    top:75%;
+    left:35%;
+    transform: translate(-50%,-50%);
+    border-style: none;
+    outline: none;
+    transition: 0.25s;
+}
+div button.secondbutton:focus{
+    width:12%;
+    background: rgb(15, 63, 219);
+}
+
+.middle_page{
+    background: rgba(36, 34, 34, 0.822);
+    padding: 50px;
+    text-align: center;
+}
+
+.middle_page p{
+    font-size: 1.2em;
+    color:rgb(152, 209, 231)
+}
+.last_page{
+    background: rgba(36, 34, 34, 0.822);
+    padding: 50px;
+    text-align: center;
+}
+.last_page p{
+    font-size: 2em;
+    color:rgb(186, 220, 233)
+}
+
+iframe{
+    height:100%; 
+    width:25%;
+    margin: 30px 30px;
+}
+
+.get_started{
+     background: rgb(16, 17, 17);
+     padding: 30px 50px;
+    
+    }
+ 
+.get_started p{
+    color:aliceblue;
+    font-size: 20px;
+    margin:20px auto;
+}
+ .get_started button{
+     background: rgb(60, 101, 235);
+     color: white;
+     position: absolute;       
+     width:10%;
+     /* top:239%; */
+     top:234%;
+     left:45%;
+     margin: 1px auto;
+     transform: translate(-50%,-50%);
+     border-style: none;
+     outline: none;
+     transition: 0.25s;
+ }
+ .get_started button:hover{
+    width:12%;
+    background: rgb(15, 63, 219);
+ }
+
+ .message{
+     background: rgb(199, 193, 193);
+     display:flex;
+    
+ }
+
+ .block{
+    
+     width:25%;
+     /* background: rgb(15, 15, 15); */
+     /* margin:20px 20px; */
+     margin:30px 0 30px 80px;
+     
+ }
+ .block p{
+     font-size: 1.2em;
+     /* padding:30px; */
+     text-align: justify;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .container-fluid{
+    padding:2% 25%;
+}
+
+
+.white-section{
+    /* background-color: #fff; */
+    background: rgb(16, 17, 17);
+    padding-left: 20%;
+
+}
+
+ .social-icon{
+    color: azure;
+    margin: 10px 20px;
+ }
+
+ 
+ 
+ @media (max-width:1028px) {
+     #title{
+         text-align: center;
+     }
+     .title-img{
+         position: static;
+         width:60%;
+         transform: rotate(0);
+     }
+     
+ }
+ 
